@@ -15,11 +15,10 @@ const ColorScreen = () => {
             }}
             />
             <FlatList
-            horizontal
             data={colors}
             keyExtractor={ item => item }
             renderItem={({ item }) => {
-                return (<View style={ { height: 100, width: 100, backgroundColor: item } } />);
+                return (<View style={ { height: 100, width: 395, backgroundColor: item } } />);
             }}
             />
         </View>
